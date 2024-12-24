@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    flex-wrap: wrap;
+    background: #07081A;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+}
+
+.first-div {
+    padding-top: 24px;
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.second-div {
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 99px;
+    display: flex;
+}
+
+.first-p {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-div {
+    display: flex;
+    gap: 16px;
+}
+
+.first-a {
+    color: #8CE900;
+    font-size: 16px;
+}
+
+.second-a {
+    color: #FFF;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.main-p-tag {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+
+}
+
+.recorder {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-content-two {
+    display: flex;
+    justify-content: center;
+}
+
+.content-main {
+    margin-top: 64px;
+    max-width: 1040px;
+    width: 100%;
+    background-color: #242642;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+
+
+
+.main-content-p-tag {
+    
+    color: #8CE900;
+    font-size: 56px;
+}
+
+.main-content-p-tag-two {
+    font-size: 20px;
+    color: #C0C0C0;
+}
+
+
+.first-footer-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.second-footer-div {
+    margin-top: 200px;
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    gap: 12px;
+    display: flex;
+    width: 264px;
+
+}
+
+.footer-p-tag {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.foter {
+    margin-top: 16px;
+   
+    color: #C0C0C0;
+}
+
+.mistake {
+    width: 264px;
+}
+
+.footer-content-two {
+    width: 82px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tag--a {
+    color: #8CE900;
+    font-size: 16px;
+}
+
+.a--tag {
+    font-size: 16px;
+    color: #FFF;
+}
+
+.last--div {
+    width: 186px;
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+}
